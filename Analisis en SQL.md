@@ -56,7 +56,7 @@ Se elaboraron consultas para obtener los indicadores generales del comportamient
 
 ## Tasa general de abandono (Churn_rate)
 
-![alt text](image-2.png)
+![alt text](./Capturas/tasa abandono.png) 
 
 ## Total de clientes y edad promedio
 
@@ -103,4 +103,5 @@ Finalmente, se creó una vista limpia para conectar el modelo SQL directamente c
 CREATE VIEW vista_banca AS (
     SELECT *
     FROM customers
+
 );
