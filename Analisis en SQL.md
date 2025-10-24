@@ -31,19 +31,11 @@ CREATE TABLE customers (
 
 Se realizaron validaciones para asegurar la calidad del dataset:
 
-## Detección de duplicados: comparando variables clave (credit_score, age, tenure, balance, estimated_salary).
+### Detección de duplicados: comparando variables clave (credit_score, age, tenure, balance, estimated_salary).
 
-SELECT credit_score, 
-age, 
-tenure, 
-balance, 
-estimated_salary, 
-COUNT (*) AS total
-FROM customers
-GROUP BY credit_score, age, tenure, balance, estimated_salary
-HAVING COUNT (*) >1; 
 
-## Conteo de valores nulos: identificando variables con posibles vacíos en country, gender, tenure, etc.
+
+### Conteo de valores nulos: identificando variables con posibles vacíos en country, gender, tenure, etc.
 
 
 ![alt text](image-1.png)
@@ -73,15 +65,15 @@ Se elaboraron consultas para obtener los indicadores generales del comportamient
 
 Se desarrollaron análisis por distintas dimensiones para identificar patrones:
 
-### Por país: tasa de abandono promedio por pais
+### Tasa de abandono promedio por pais
 
 ![alt text](Capturas/abandono_por_pais.png)
 
-## Por género y país: identificación de diferencias de comportamiento.
+### Por género y país: identificación de diferencias de comportamiento.
 
 ![alt text](image-6.png)
 
-## Por tenencia: análisis del tiempo de relación con el banco y su impacto en la retención.
+### Por tenencia: análisis del tiempo de relación con el banco y su impacto en la retención.
 
 ![alt text](image-7.png)
 
@@ -92,7 +84,7 @@ Se profundizó en el saldo promedio (balance) de clientes activos y no activos, 
 
 Además, se analizaron combinaciones como:
 
-## Clientes con tarjeta de crédito y saldo cero, eran miembros activos pero aun asi abandonaron 
+### Clientes con tarjeta de crédito y saldo cero, eran miembros activos pero aun asi abandonaron 
 
 ![alt text](image-8.png)
 
@@ -107,6 +99,7 @@ CREATE VIEW vista_banca AS (
     FROM customers
 
 );
+
 
 
 
