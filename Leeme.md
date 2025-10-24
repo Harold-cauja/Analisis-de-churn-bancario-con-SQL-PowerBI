@@ -29,11 +29,6 @@ Detectar patrones de abandono y segmentar a los clientes para ayudar al banco a 
    - Gráficos de barras y líneas para tasas de abandono por segmento.
    - Filtros por país, edad y número de productos.
 
-## Resultados
-- **Tasa global de churn** calculada y segmentada por pais 
-- Identificación de **segmentos de mayor riesgo**, por ejemplo: clientes jóvenes con solo un producto.
-- Dashboard interactivo que facilita la **toma de decisiones en tiempo real**
-
 ## Cómo ejecutar
 1. Clona este repositorio.
 2. Importa el script SQL en tu instancia de PostgreSQL (`bank_churn.sql`).
@@ -45,3 +40,4 @@ Este proyecto es únicamente para **fines educativos**.
 
 Harold Cauja Portilla
 Guayaquil - Ecuador
+
