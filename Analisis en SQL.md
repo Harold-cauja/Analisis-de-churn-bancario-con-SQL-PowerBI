@@ -18,9 +18,9 @@ Variable objetivo: churn (abandono del cliente)
 
 Se realizaron validaciones para asegurar la calidad del dataset:
 
-### Detección de duplicados: comparando variables clave (credit_score, age, tenure, balance, estimated_salary).
+### Detección de duplicados
 
-
+![alt text](CCapturas/duplicados.png)  
 
 ### Conteo de valores nulos: identificando variables con posibles vacíos en country, gender, tenure, etc.
 
@@ -86,6 +86,7 @@ CREATE VIEW vista_banca AS (
     FROM customers
 
 );
+
 
 
 
