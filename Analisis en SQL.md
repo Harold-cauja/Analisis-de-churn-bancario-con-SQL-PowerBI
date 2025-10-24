@@ -71,7 +71,7 @@ Se desarrollaron análisis por distintas dimensiones para identificar patrones:
 
 ### Por género y país: identificación de diferencias de comportamiento.
 
-![alt text](image-6.png)
+![alt text](Capturas/abandono_pais_genero.png)
 
 ### Por tenencia: análisis del tiempo de relación con el banco y su impacto en la retención.
 
@@ -99,6 +99,7 @@ CREATE VIEW vista_banca AS (
     FROM customers
 
 );
+
 
 
 
