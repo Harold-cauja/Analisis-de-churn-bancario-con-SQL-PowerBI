@@ -75,7 +75,7 @@ Se desarrollaron análisis por distintas dimensiones para identificar patrones:
 
 ### Por tenencia: análisis del tiempo de relación con el banco y su impacto en la retención.
 
-![alt text](image-7.png)
+![alt text](Capturas/abadono_tenencia.png)
 
 
 5️⃣ Análisis de balance y riesgo
@@ -99,6 +99,7 @@ CREATE VIEW vista_banca AS (
     FROM customers
 
 );
+
 
 
 
