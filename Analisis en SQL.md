@@ -54,7 +54,7 @@ Se elaboraron consultas para obtener los indicadores generales del comportamient
 
 ## Total de clientes y edad promedio
 
-![alt text](image-3.png)
+![alt text](Capturas/total_clientes_edad_promedio.png)
 
 
 ## Comparativo de clientes que abandonaron vs. los que permanecen
@@ -99,6 +99,7 @@ CREATE VIEW vista_banca AS (
     FROM customers
 
 );
+
 
 
 
