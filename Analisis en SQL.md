@@ -59,7 +59,7 @@ Se elaboraron consultas para obtener los indicadores generales del comportamient
 
 ## Comparativo de clientes que abandonaron vs. los que permanecen
 
-![alt text](image-4.png)
+![alt text](Capturas/clientes_churn_no_churn.png)
 
 4️⃣ Análisis segmentado
 
@@ -99,6 +99,7 @@ CREATE VIEW vista_banca AS (
     FROM customers
 
 );
+
 
 
 
