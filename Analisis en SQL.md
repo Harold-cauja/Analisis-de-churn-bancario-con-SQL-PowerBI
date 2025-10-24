@@ -56,7 +56,7 @@ Se elaboraron consultas para obtener los indicadores generales del comportamient
 
 ## Tasa general de abandono (Churn_rate)
 
-![Tasa de abandono general](Capturas/tasa abandono.png) 
+![Tasa de abandono general](Capturas/tasa abandononada.png) 
 
 
 
@@ -107,5 +107,6 @@ CREATE VIEW vista_banca AS (
     FROM customers
 
 );
+
 
 
