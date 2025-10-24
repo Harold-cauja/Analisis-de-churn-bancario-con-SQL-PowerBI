@@ -56,7 +56,7 @@ Se elaboraron consultas para obtener los indicadores generales del comportamient
 
 ## Tasa general de abandono (Churn_rate)
 
-![alt text](./Capturas/tasa abandono.png) 
+![alt text](Capturas/tasa abandono.png) 
 
 ## Total de clientes y edad promedio
 
@@ -105,3 +105,4 @@ CREATE VIEW vista_banca AS (
     FROM customers
 
 );
+
