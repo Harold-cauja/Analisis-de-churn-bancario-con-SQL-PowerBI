@@ -20,7 +20,7 @@ Se realizaron validaciones para asegurar la calidad del dataset:
 
 ### Detección de duplicados
 
-![alt text](CCapturas/duplicados.png)  
+![alt text](Capturas/duplicados.png)  
 
 ### Conteo de valores nulos: identificando variables con posibles vacíos en country, gender, tenure, etc.
 
@@ -86,6 +86,7 @@ CREATE VIEW vista_banca AS (
     FROM customers
 
 );
+
 
 
 
