@@ -12,20 +12,7 @@ Comportamiento bancario: products_number, active_member, credit_card, tenure
 
 Variable objetivo: churn (abandono del cliente)
 
-CREATE TABLE customers (
-    customer_id SERIAL PRIMARY KEY,
-    credit_score INT,
-    country TEXT,
-    gender TEXT,
-    age INT,
-    tenure INT,
-    balance NUMERIC(12,2),
-    products_number INT,
-    credit_card BOOLEAN,
-    active_member BOOLEAN,
-    estimated_salary NUMERIC(10,2),
-    churn BOOLEAN
-);
+![alt text](Capturas/crear_tabla.png) 
 
 2️⃣ Verificación de calidad de datos
 
@@ -99,6 +86,7 @@ CREATE VIEW vista_banca AS (
     FROM customers
 
 );
+
 
 
 
