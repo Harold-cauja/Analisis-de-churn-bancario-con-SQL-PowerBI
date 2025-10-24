@@ -73,7 +73,7 @@ Se elaboraron consultas para obtener los indicadores generales del comportamient
 
 Se desarrollaron análisis por distintas dimensiones para identificar patrones:
 
-## Por país: tasa de abandono promedio por pais
+### Por país: tasa de abandono promedio por pais
 
 ![alt text](Capturas/abandono_por_pais.png)
 
@@ -107,6 +107,7 @@ CREATE VIEW vista_banca AS (
     FROM customers
 
 );
+
 
 
 
