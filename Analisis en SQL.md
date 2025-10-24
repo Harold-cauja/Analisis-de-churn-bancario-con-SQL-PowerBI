@@ -86,7 +86,7 @@ Además, se analizaron combinaciones como:
 
 ### Clientes con tarjeta de crédito y saldo cero, eran miembros activos pero aun asi abandonaron 
 
-![alt text](image-8.png)
+![alt text](Capturas/clientes_abandonaron_saldo0.png)
 
 
 
@@ -99,6 +99,7 @@ CREATE VIEW vista_banca AS (
     FROM customers
 
 );
+
 
 
 
