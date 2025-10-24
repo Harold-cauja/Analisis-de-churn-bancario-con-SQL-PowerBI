@@ -38,7 +38,7 @@ Se realizaron validaciones para asegurar la calidad del dataset:
 ### Conteo de valores nulos: identificando variables con posibles vacíos en country, gender, tenure, etc.
 
 
-![alt text](image-1.png)
+![alt text](Capturas/valores_nulos.png)
 
 Estos pasos garantizan una base confiable para el análisis posterior.
 
@@ -99,6 +99,7 @@ CREATE VIEW vista_banca AS (
     FROM customers
 
 );
+
 
 
 
