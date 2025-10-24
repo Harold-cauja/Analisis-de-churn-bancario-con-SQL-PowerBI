@@ -75,7 +75,7 @@ Se desarrollaron análisis por distintas dimensiones para identificar patrones:
 
 ## Por país: tasa de abandono promedio por pais
 
-![alt text](image-5.png)
+![alt text](Capturas/abandono_por_pais.png)
 
 ## Por género y país: identificación de diferencias de comportamiento.
 
@@ -107,6 +107,7 @@ CREATE VIEW vista_banca AS (
     FROM customers
 
 );
+
 
 
 
