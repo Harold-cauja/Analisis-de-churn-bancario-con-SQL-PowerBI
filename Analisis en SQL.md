@@ -78,7 +78,9 @@ Además, se analizaron combinaciones como:
 -- Tambien se agrupó por segmentos el nivel de score crediticio y luego se calcula el total de clientes para ese segmento
 -- Adicional se calcula cuanto clientes de ese segmento abandonaron el banco y que porcentaje de abandono representa
 
-![alt text] 
+![alt text](Capturas/abandono_segmento_score.png)
+
+-- Adicional se realizo se utilizó CTE y funciones de ventana para mostrar qué porcentaje del total del banco representan 
 
 6️⃣ Preparación de vista para Power BI
 
@@ -89,6 +91,7 @@ CREATE VIEW vista_banca AS (
     FROM customers
 
 );
+
 
 
 
