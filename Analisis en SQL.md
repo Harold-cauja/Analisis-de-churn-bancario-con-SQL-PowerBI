@@ -75,7 +75,10 @@ Además, se analizaron combinaciones como:
 
 ![alt text](Capturas/clientes_abandonaron_saldo0.png)
 
+-- Tambien se agrupó por segmentos el nivel de score crediticio y luego se calcula el total de clientes para ese segmento
+-- Adicional se calcula cuanto clientes de ese segmento abandonaron el banco y que porcentaje de abandono representa
 
+![alt text] 
 
 6️⃣ Preparación de vista para Power BI
 
@@ -86,6 +89,7 @@ CREATE VIEW vista_banca AS (
     FROM customers
 
 );
+
 
 
 
