@@ -80,7 +80,10 @@ Además, se analizaron combinaciones como:
 
 ![alt text](Capturas/abandono_segmento_score.png)
 
--- Adicional se realizo se utilizó CTE y funciones de ventana para mostrar qué porcentaje del total del banco representan 
+-- Adicional se utilizó CTE y funciones de ventana para mostrar qué porcentaje del total del banco representa el abandono por segmento
+
+
+![alt text](Capturas/abandono_segmento_score_total_banco.png)
 
 6️⃣ Preparación de vista para Power BI
 
@@ -91,6 +94,7 @@ CREATE VIEW vista_banca AS (
     FROM customers
 
 );
+
 
 
 
