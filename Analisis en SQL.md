@@ -78,7 +78,7 @@ Además, se analizaron combinaciones como:
 -- Tambien se agrupó por segmentos el nivel de score crediticio y luego se calcula el total de clientes para ese segmento
 -- Adicional se calcula cuanto clientes de ese segmento abandonaron el banco y que porcentaje de abandono representa
 
-![alt text](Capturas/abandono_segmento_score.png)
+![alt text](Capturas/abandono_por_segmento_score1.png)
 
 -- Adicional se utilizó CTE y funciones de ventana para mostrar qué porcentaje del total del banco representa el abandono por segmento
 
@@ -94,6 +94,7 @@ CREATE VIEW vista_banca AS (
     FROM customers
 
 );
+
 
 
 
